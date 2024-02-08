@@ -325,4 +325,8 @@ section {
     text-decoration-color: none;
 }
 
+.about-pic {
+    max-width: 400px;
+}
+
 
