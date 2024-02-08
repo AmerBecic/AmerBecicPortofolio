@@ -314,5 +314,15 @@ section {
     max-width: 820px;
 }
 
+.text-container p a {
+    text-decoration: underline;
+    color: #0400ff;
+}
+
+.text-container p a:hover {
+    text-decoration: none;
+    text-underline-offset: none;
+    text-decoration-color: none;
+}
 
 
