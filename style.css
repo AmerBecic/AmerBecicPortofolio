@@ -241,6 +241,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
+    background: none;
 }
 
 .btn-color-1:hover,
@@ -249,10 +250,6 @@ section {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: rgb(0, 0, 0) 0.1rem solid;
-}
-
-.btn-color-2 {
-    background: none;
 }
 
 /* About section */
@@ -272,7 +269,8 @@ section {
     flex-direction: column;
 }
 
-.about-containers, .about-details-container {
+.about-containers,
+.about-details-container {
     display: flex;
 }
 
@@ -287,9 +285,8 @@ section {
 }
 
 .details-container {
-    min-width: 350px;
     padding: 1rem;
-    flex: -1;
+    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -300,11 +297,9 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
-    display: flex;
 }
 
 .section__pic-container {
-    display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -330,3 +325,41 @@ section {
 }
 
 
+/* Experience section */
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
