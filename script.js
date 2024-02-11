@@ -12,3 +12,7 @@ function OpenLinkedIn() {
 function OpenGitHub() {
     window.open("https://github.com/AmerBecic", "_blank");
 }
+
+function OpenLink(link){
+    window.open(link);
+}
