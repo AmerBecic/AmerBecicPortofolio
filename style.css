@@ -364,7 +364,7 @@ article .icon {
     cursor: default;
 }
 
-/* Projects */
+/* Projects section*/
 
 #projects {
     position: relative;
@@ -391,9 +391,10 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
-/* Contact */
+/* Contact section*/
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -426,4 +427,24 @@ article .icon {
 .contact-icon {
     cursor: default;
     height: 2.5rem;
+}
+
+.arrow-icon-back-to-top {
+    height: 2rem;
+    transform: rotate(180deg);
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+}
+
+/* Footer section */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
