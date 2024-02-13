@@ -7,6 +7,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .arrow-icon-back-to-top {
+        display: none;
+    }
 }
 
 
